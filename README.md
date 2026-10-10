@@ -6,7 +6,7 @@ A React web application built as part of the [Codecademy Full-Stack Engineer Car
 
 ## Preview
 
-![Jammming Screenshot](./assets/screenshot.png)
+![Jammming Screenshot](./assets/Screenshot.png)
 
 ---
 

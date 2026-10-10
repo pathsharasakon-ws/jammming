@@ -1,16 +1,44 @@
-# React + Vite
+# Jammming 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React web application built as part of the [Codecademy Full-Stack Engineer Career Path](https://www.codecademy.com). The app allows users to search the Spotify library, create custom playlists, and export them directly to their personal Spotify accounts using the Spotify Web API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
 
-## React Compiler
+![Jammming Screenshot](./assets/screenshot.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Spotify Authentication (PKCE Flow):** Secure login directly in the browser without exposing client secrets.
+- **Search Music:** Query Spotify's vast catalog for tracks, artists, and albums.
+- **Custom Playlist Builder:** Add and remove tracks to/from a custom playlist with ease.
+- **Playlist Renaming:** Give your custom playlist any name you like.
+- **Save to Spotify:** Export and save your custom playlist directly into your personal Spotify account with a single click.
+
+---
+
+## Built With
+
+- **React 18** - Component-based UI library
+- **Vite** - Next-generation frontend tooling & dev server
+- **Spotify Web API** - RESTful API for Spotify catalog search and playlist management
+- **CSS3** - Custom modern dark-mode UI with Spotify-inspired styling
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+1. Node.js installed on your machine
+2. A Spotify Developer account and a registered application
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/pathsharasakon-ws/jammming.git](https://github.com/pathsharasakon-ws/jammming.git)
+   cd jammming
